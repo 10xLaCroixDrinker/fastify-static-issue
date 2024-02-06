@@ -1,0 +1,19 @@
+{
+  "name": "fastify-static-issue",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node --require=./tracer.js server.js"
+  },
+  "dependencies": {
+    "@autotelic/fastify-opentelemetry": "^0.18.0",
+    "@fastify/static": "^7.0.0",
+    "@opentelemetry/instrumentation": "^0.48.0",
+    "@opentelemetry/instrumentation-dns": "^0.33.0",
+    "@opentelemetry/instrumentation-fastify": "^0.33.0",
+    "@opentelemetry/instrumentation-http": "^0.48.0",
+    "@opentelemetry/sdk-trace-base": "^1.21.0",
+    "@opentelemetry/sdk-trace-node": "^1.21.0",
+    "fastify": "^4.26.0",
+    "pino-pretty": "^10.3.1"
+  }
+}
